@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "772771780063",
+    "firebase_url": "https://schoolup-782b5.firebaseio.com",
+    "project_id": "schoolup-782b5",
+    "storage_bucket": "schoolup-782b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772771780063:android:21a14bbe6dc5df1e",
+        "android_client_info": {
+          "package_name": "com.example.yassi.schoolup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772771780063-pdavhm2k4pmcgn1iqdoncp3mr0n4sun2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yassi.schoolup",
+            "certificate_hash": "fec32c8c45bbc29981f91726a4fea04ddba5dfc0"
+          }
+        },
+        {
+          "client_id": "772771780063-8fp9mjgd96b6uu8bv47hqqog7533hu5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx-1pohbJ65o_Fn64XyBCAXs3EcSPL4tQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772771780063-8fp9mjgd96b6uu8bv47hqqog7533hu5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
