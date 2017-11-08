@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
+    android:background="?android:attr/colorPrimary"
     tools:context="com.example.yassi.schoolup.Main22Activity">
 
     <ImageView
@@ -13,45 +13,45 @@
         android:layout_height="478dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:adjustViewBounds="false"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/a6"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.533" />
+        app:srcCompat="@drawable/a6" />
 
     <Button
         android:id="@+id/TimeBtn"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Time Table"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginEnd="8dp"
-        tools:layout_editor_absoluteY="170dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Time Table"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.083" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="170dp" />
 
     <Button
         android:id="@+id/button4"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="Reclamaton"
         android:textColor="@android:color/holo_red_light"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="297dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.968"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.968" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="297dp" />
 
     <Button
         android:id="@+id/button5"
