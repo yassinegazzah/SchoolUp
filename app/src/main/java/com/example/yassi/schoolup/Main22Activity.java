@@ -11,7 +11,7 @@ public class Main22Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main22);
+        setContentView(R.layout.activity_menu3);
 
         Button TimeBtn = (Button) findViewById(R.id.TimeBtn);
         TimeBtn.setOnClickListener(new View.OnClickListener() {

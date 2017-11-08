@@ -8,6 +8,6 @@ public class Activity12 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_12);
+        setContentView(R.layout.activity_menu2);
     }
 }
