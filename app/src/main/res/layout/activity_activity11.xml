@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
+    android:background="@drawable/aqa"
     tools:context="com.example.yassi.schoolup.activity11">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="125dp"
         android:layout_height="134dp"
-        app:srcCompat="@drawable/a5"
+        app:srcCompat="@drawable/a3"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="334dp" />
 
@@ -19,7 +19,7 @@
         android:id="@+id/imageView6"
         android:layout_width="116dp"
         android:layout_height="117dp"
-        app:srcCompat="@drawable/student3"
+        app:srcCompat="@drawable/a7"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="33dp" />
 
@@ -27,7 +27,7 @@
         android:id="@+id/imageView7"
         android:layout_width="138dp"
         android:layout_height="127dp"
-        app:srcCompat="@drawable/reservation"
+        app:srcCompat="@drawable/a1"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="183dp" />
 
@@ -36,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Time table"
+        android:textColor="@color/btn_login_bg"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="75dp" />
 
@@ -44,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Remedial teaching"
+        android:textColor="@color/btn_login_bg"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="92dp" />
 
@@ -52,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Exam time table"
+        android:textColor="@color/btn_login_bg"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="109dp" />
 
@@ -60,6 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hours of absence"
+        android:textColor="@color/btn_login_bg"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="126dp" />
 
@@ -67,11 +71,13 @@
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
         android:text="consult services"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="33dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="123dp" />
 
     <Button
         android:id="@+id/button8"
@@ -79,7 +85,7 @@
         android:layout_width="210dp"
         android:layout_height="86dp"
         android:text="Classroom reservation"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/btn_login_bg"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="199dp" />
@@ -90,7 +96,7 @@
         android:layout_width="249dp"
         android:layout_height="84dp"
         android:text="Administrative services"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="351dp" />
