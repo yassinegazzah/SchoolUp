@@ -17,7 +17,7 @@ public class Main22Activity extends AppCompatActivity {
         TimeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), Activity3.class);
+                Intent startIntent = new Intent(getApplicationContext(),Activity12.class);
                 startActivity(startIntent);
             }
         });

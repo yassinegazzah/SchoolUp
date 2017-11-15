@@ -29,7 +29,8 @@
             android:label="@string/title_activity_login" />
         <activity android:name=".Activity12" />
         <activity android:name=".activity11" />
-        <activity android:name=".Resrevation"></activity>
+        <activity android:name=".Resrevation" />
+        <activity android:name=".testlogin"></activity>
     </application>
 
 </manifest>

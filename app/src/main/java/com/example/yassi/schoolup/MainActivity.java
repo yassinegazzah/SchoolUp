@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         connectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), LoginActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), testlogin.class);
                 startActivity(startIntent);
             }
         });
